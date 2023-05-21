@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Barbearia Alura</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="container__header">
+            <h1>
+                <img src="./img/logo.png" alt="Logo da Barbearia Alura">
+            </h1>
+            <nav>
+                <ul class="navigation">
+                    <li class="navigation__list">
+                        <a class="navigation__link" href="index.html">Home</a>
+                    </li>
+                    <li class="navigation__list">
+                        <a class="navigation__link" href="produtos.html">Produtos</a>
+                    </li>
+                    <li class="navigation__list">
+                        <a class="navigation__link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>    
+        </div>
+    </header>
+    <main>
+        <form class="form">
+            <div>
+                <label class="form__label" for="namesurname">Nome e Sobrenome</label>
+                <input class="form__input" type="text" id="namesurname" required placeholder="Beatriz Rocha">
+
+                <label class="form__label" for="email">E-mail</label>
+                <input class="form__input" type="email" id="email" required placeholder="seuemail@alura.com">
+
+                <label class="form__label" for="telephone">Telefone</label>
+                <input class="form__input input-telephone" type="tel" id="telephone" required placeholder="(xx) xxxxx-xxxx">
+
+                <label class="form__label" for="message">Mensagem</label>
+                <textarea class="form__input" rows="8" name="" id="message"></textarea>
+            </div>
+            <div>
+            <p class="form__paragraph">Como prefere nosso contato? </p>
+                <label class="label__radio" for="radio-email"><input class="input__radio" type="radio" id="radio-email" name="contato" checked> E-mail</label>
+
+                <label class="label__radio" for="radio-telephone"><input class="input__radio" type="radio" id="radio-telephone" name="contato"> Telefone</label>
+
+                <label class="label__radio" for="radio-whatsapp"><input class="input__radio" type="radio" id="radio-whatsapp" name="contato"> Whatsapp</label>
+            </div>
+            <div>
+                <p class="form__paragraph">Qual horário prefere ser atendido?</p>
+                <select class="form__time" name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+            </div>
+            <div>
+                <label class="form__paragraph" for="check"><input type="checkbox" id="check" checked> Gostaria de receber nossas novidades por e-mail?</label>
+            </div>
+            <input class="form__input input-submit" type="submit" value="Enviar formulário">
+            <table class="table__time">
+                <thead>
+                    <tr class="table__row">
+                        <th>Dias</th>
+                        <th>Horários</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table__row">
+                        <td>Segunda</td>
+                        <td>8h ~ 18h</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td>Terça</td>
+                        <td>8h ~ 18h</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td>Quarta</td>
+                        <td>8h ~ 18h</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td>Quinta</td>
+                        <td>10h ~ 18h</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td>Sexta</td>
+                        <td>10h ~ 18h</td>
+                    </tr>    
+                </tbody>    
+            </table>
+        </form>
+        </main>
+        <footer class="container__footer">
+            <img src="./img/logo-branco.png" alt="Logo da Barbearia Alura, na cor branca">
+        <p> &copy; Copyright Barbearia Alura - 2023</p>
+    </footer>
+    
+</body>
+</html>

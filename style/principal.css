@@ -1,0 +1,108 @@
+.banner {
+    width: 100%;
+}
+
+.principal {
+    background: linear-gradient(#FFD56F,#FF7B54, #FFD56F);
+}
+
+.section__principal, .section__description {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.title__principal {
+    margin: .4em 0 .8em;
+    font-size: 2em;
+    clear: left;
+    font-weight: 800;
+}
+
+.title__principal::before {
+    content: "[ ";
+}
+
+.title__principal::after {
+    content: " ]";
+}
+
+
+.title__principal, .paragraph {
+    text-align: center;
+    padding: .4em 0; 
+}
+
+.banner__two {
+    width: 140px;
+    float: left;
+    margin: .5em 1em 0 0;    
+}
+
+.paragraph strong {
+    font-weight: bold;
+}
+
+.paragraph em {
+    font-style: italic;
+}
+
+.paragraph-location {
+    margin-bottom: 2em;
+}
+
+.location {
+    width: 940px;
+    margin: 4em auto; 
+}
+
+
+.section__description, .video {
+    padding-bottom: 2em;
+    background: linear-gradient(var --goiaba, --salmao);
+}
+
+.list {
+    vertical-align: top;
+    width: 30%;
+    margin-right: 10%;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.list__items {
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.list__items::before {
+    content: "✂️";
+}
+
+.banner__three {
+    width: 59%;
+    box-shadow: 10px 10px 30px 10px var(--preto);
+}
+
+.video {
+    width: 560px;
+    margin: 0em auto;
+    padding: 4em 0;
+    opacity: 0.5;
+}
+
+.video:hover {
+    opacity: 1;
+    transition: 500ms;
+}
+
+.container__footer {
+    text-align: center;
+    background-image: url("../img/bg.jpg");
+    padding: 1.5em 0;
+    color: #FFD56F;
+}
+
+.container__footer p {
+    font-size: 12px;
+    padding: 1em 0;
+}

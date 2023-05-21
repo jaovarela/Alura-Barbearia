@@ -1,0 +1,40 @@
+@import url("./style/principal.css");
+@import url("./style/produtos.css");
+@import url("./style/contato.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+
+:root {
+   --verde:#939B62;
+   --salmao:#FFB26B;
+   --goiaba:#FF7B54;
+   --amarelo-mostarda:#FFD56F;
+   --branco:#FFFFFF;
+   --preto:#000000; 
+
+   --fonte-principal:'Montserrat', sans-serif;
+    
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: var(--fonte-principal);
+    font-weight: 400;    
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--preto);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--amarelo-mostarda);
+    border-radius: 999px;
+}
+
+
+

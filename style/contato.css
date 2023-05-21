@@ -1,0 +1,78 @@
+.form {
+    width: 940px;
+    margin: 0 auto;
+    padding: 3em 0;
+}
+.form__label, .form__input {
+    display: block;
+}
+
+.form__label, .form__paragraph {
+    font-size: 20px;
+    padding: .5em 0;
+}
+
+.form__input {
+    width: 40%;
+    padding: 5px 10px;
+    border: 1px solid var(--goiaba);
+    border-radius: 6px;
+}
+
+.input-telephone, .input-submit {
+    width: 20%;
+}
+
+.label__radio {
+    display:block;
+    padding:.4em 0;
+}
+
+.label__radio:last-child {
+    margin-bottom: 1em;
+}
+
+.form__time {
+    margin-bottom: 1.5em;
+    background: var(--goiaba);
+    color: var(--preto);
+}
+.form__time option {
+    background: var(--salmao);
+    
+}
+
+.input-submit {
+    background: var(--goiaba);
+    color: var(--branco);
+    margin-top: 1.5em;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+}
+
+.input-submit:hover {
+    background: var(--verde);
+    color: var(--preto);
+    transition: .8s all;
+    cursor: pointer;
+}
+
+.table__time {
+    margin: 2em 0;
+}
+
+.table__row th, td {
+    padding: 8px 16px;
+    border: 1px solid var(--preto);
+    background: var(--salmao);
+}
+
+.table__row th {
+    background: var(--goiaba);
+}
+
+.table__row td {
+    margin: 0;
+}
